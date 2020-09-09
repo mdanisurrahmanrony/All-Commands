@@ -1,0 +1,21 @@
+1. Web Server  - Xampp
+https://www.apachefriends.org/download.html
+2. Composer.. Dependency Manager
+https://getcomposer.org/download/
+3. Editor  - Any 
+Recommended Editor Sublime, PHPStorm.
+Download any Laravel Project From Web
+For example Blog
+https://github.com/jacurtis/laravel-blog-tutorial
+4. Extract Folder
+5. Copy extracted folder to Xampp/htdocs
+6. Now Run Apache and MySql Server from Xampp control panel
+7. These Error because we not update Project packages
+8. Now update through composer 
+9. Got to project folder that copied in Htdocs
+10. Run Command Prompt here
+11. Wait until completes
+12. Now create .env file for database configuration
+13. Now Key Generate for Env file
+14. Setup Database Configurations
+15. Now Run Migrations

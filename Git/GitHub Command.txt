@@ -1,0 +1,12 @@
+Adding an existing project to GitHub using the command line :
+
+git init
+git add .
+git commit -m "First commit"    ->Changeable Inside ""
+git status
+git remote add origin https:/demo.git(remote repository URL)
+git push -f origin master
+
+-----------------------------
+
+Git Bash Login Command:

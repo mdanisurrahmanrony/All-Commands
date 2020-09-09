@@ -1,0 +1,2 @@
+Ctrl+Shift+P
+You can also open the keybindings. json file from the Command Palette (Ctrl+Shift+P) with the Preferences: Open Keyboard Shortcuts (JSON) command.

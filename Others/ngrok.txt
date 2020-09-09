@@ -1,0 +1,7 @@
+cd OneDrive/Desktop
+
+or,
+
+cd Desktop
+
+ngrok http 80

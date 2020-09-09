@@ -1,0 +1,8 @@
+ls
+git status
+git add -A
+git status
+git commit -m "Descriptive Messgae. Example: Initial Commit"
+git status
+git log
+git push origin master

@@ -1,0 +1,19 @@
+git init
+git add -A
+git commit -m "Initial Commit"
+git status
+git remote add origin https:/demo.git
+git push -f origin master
+git push -u origin master	 (Remove auto created read.me file for avoiding error)
+
+clear
+
+git pull origin master
+git remote remove origin
+
+git push -f origin master
+
+git remote -v	--->Shows URLs of remote repositories
+git remote add <shortname> <url>	--->Creates a new connection to a remote repository
+git remote remove <name>	--->Disconnects the remote from the local repository
+git remote rename <old-name> <new-name>		--->Renames the remote connection

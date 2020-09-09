@@ -1,0 +1,64 @@
+git init
+git add .
+git commit -m "message" file.txt
+git diff
+git log
+git show abtyds
+git checkout abtyds		--->Here abtyds is commit hash
+git checkout master
+cat file.txt
+git log file.txt
+git checkout abtdss file.txt
+cat file.txt
+git checkout master -f		--->Only one
+cat file.txt
+git reset --soft abtdss
+git status
+git diff HEAD 
+vim file.txt
+git commit -am "Seven Commit"
+git reset --hard abtdss
+git reflog		--->See all commits
+git reset HEAD{8}
+git reset --hard
+cat file.txt
+gc -m "message" file.txt	---> Here gc is git commit
+git add task2.txt
+git commit --amend
+git stash
+git stash pop
+git stash apply
+git stash list
+git stash pop stash@{1}
+git stash clear
+git stash list
+git clean -f -n
+git clean -f
+git clone git@github.com:askjdfb.git
+git remote add origin (any remote name) git@github.com:askjdfb.git
+git remote add origin git@github.com:askjdfb.git
+git remote show
+git remote show origin
+git push origin master
+git pull origin master
+vim .gitignore
+*.zip
+git status
+git add .gitignore
+git commit -am "gitignore"
+git push origin master
+git remote show origin
+alias gc="git commit"
+git mergetool
+git commit -am "conflict resolved"
+git push origin master
+git pull origin master
+git branch
+git branch branchA
+git branch
+git branch branchB
+git branch
+git checkout branchA
+git branch
+git checkout master
+git checkout branchB

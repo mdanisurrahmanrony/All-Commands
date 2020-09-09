@@ -1,0 +1,5 @@
+npm install
+npm audit fix
+npm fund		(Not Important/No Need to Run)
+npm start
+npm run build

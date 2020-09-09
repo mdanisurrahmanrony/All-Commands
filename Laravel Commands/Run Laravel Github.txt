@@ -1,0 +1,11 @@
+1. download project
+2. Put the folder in htdocs
+3. Run cmd in the folder address
+4. Run "composer install" on your cmd or terminal
+5. Create a new database in Phpmyadmin
+6. Run "copy .env.example .env" 
+7. Open your .env file and rename database name (DB_DATABASE) to the new database name
+8. Change DB_USERNAME to root (DB_USERNAME=root)
+9. Run php artisan key:generate
+10. Run php artisan migrate
+11. Run php artisan serve
