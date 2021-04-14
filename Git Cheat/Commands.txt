@@ -1,0 +1,46 @@
+git init
+git add -A
+git commit -m "Initial Commit"
+git status
+git remote add origin https://github.com/mdanisurrahmanrony/RonyFolio-Laravel.git
+git push -f origin master
+git push -u origin master	 (Remove auto created read.me file for avoiding error)
+
+clear
+
+git pull origin master
+git remote remove origin
+
+---------------------------------------------------------------------------------------------------------------------------------
+New git remote add and push:
+
+git remote remove origin
+git remote add origin https://github.com/mdanisurrahmanrony/Portfolio-Rony-React-One.git
+git remote add origin https://mdanisurrahmanrony@bitbucket.org/mdanisurrahmanrony/porfolio-rony-react-one.git
+git push -u origin master
+
+git remote -v
+---------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+npm install
+npm audit fix
+npm install contentful
+npm fund		(Not Important/No Need to Run)
+npm start
+npm run build
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Bitbucket RonyFolio Remote:
+git remote add origin https://mdanisurrahmanrony@bitbucket.org/mdanisurrahmanrony/ronyfolio.git
+
+Github RonyFolio Remote:
+git remote add origin https://github.com/mdanisurrahmanrony/RonyFolio.git
+
+git push -f origin master
+
+git remote -v	--->Shows URLs of remote repositories
+git remote add <shortname> <url>	--->Creates a new connection to a remote repository
+git remote remove <name>	--->Disconnects the remote from the local repository
+git remote rename <old-name> <new-name>		--->Renames the remote connection
+
