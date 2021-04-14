@@ -15,6 +15,18 @@ git reset --hard HEAD^
 
 --------------------------------------------------------------------------------------------------------------------
 
+Git Branch:
+
+git branch     //To see branch list
+git branch branchname     //Create new branch named branchname
+git checkout branchname     //Switch to branch named branchname
+git push --set-upstream origin branchname     //Pushing to remote repository with newly created branch named branchname
+git checkout -b branchname     //Create and switch to branch named branchname at the same time
+git branch -d branchname     //Delete branch named branchname
+
+
+--------------------------------------------------------------------------------------------------------------------
+
 Basic Git:
 
 git init
@@ -36,3 +48,5 @@ git remote -v	--->Shows URLs of remote repositories
 git remote add <shortname> <url>	--->Creates a new connection to a remote repository
 git remote remove <name>	--->Disconnects the remote from the local repository
 git remote rename <old-name> <new-name>		--->Renames the remote connection
+
+git log     //To see git log history
