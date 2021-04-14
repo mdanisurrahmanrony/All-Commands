@@ -1,0 +1,38 @@
+Git Commit:
+
+1. git commit
+2. Add first line to subject
+3. Add others line from second/third line
+4. Press Esc button
+5. Press wq after :
+6: Press Enter
+
+--------------------------------------------------------------------------------------------------------------------
+
+Delete Last Commit:
+
+git reset --hard HEAD^
+
+--------------------------------------------------------------------------------------------------------------------
+
+Basic Git:
+
+git init
+git add -A
+git commit -m "Initial Commit"
+git status
+git remote add origin https:/demo.git
+git push -f origin master
+git push -u origin master	 (Remove auto created read.me file for avoiding error)
+
+clear
+
+git pull origin master
+git remote remove origin
+
+git push -f origin master
+
+git remote -v	--->Shows URLs of remote repositories
+git remote add <shortname> <url>	--->Creates a new connection to a remote repository
+git remote remove <name>	--->Disconnects the remote from the local repository
+git remote rename <old-name> <new-name>		--->Renames the remote connection
