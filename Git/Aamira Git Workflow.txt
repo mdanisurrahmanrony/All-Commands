@@ -1,0 +1,43 @@
+All Git Commands:
+
+(1) git pull      //pull everything from master branch
+(2) git branch issue-4      //Create branch named issue-4, using issue number 4 
+(3) git branch      //Show branches
+(4) git checkout issue-4      //Go to branch issue-4
+(5) git status      //See the changes
+(6) git add test.txt      //Add specific file instead of all files (Don't use: git add .)
+(7) git status      //See the changes
+(8) git commit      //Commiting files
+(9) git status      //See the changes
+(10) git push -u origin issue-4      //Pushing issue-4 branch to GitHub
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+All Steps:
+
+(1) Create issue every time while working with new feature.
+(2) Using title, comment, markup, assign, labels, select projects (recent, repository, organization),
+      set milestone (Releases 1), sumbit new issue - create new issue.
+(3) git clone project, go to master branch, git pull.
+(4) Create branch using issue number. Suppose for 4 number issue run: git branch issue-4.
+(5) Show branches using: git branch. Press q for exit.
+(6) Go to branch issue-4 using: git checkout issue-4.
+(7) Change/do whatever you want in this branch.
+(8) See the changes using: git status.
+(9) Add individual file instead of  all files using: git add test.txt (Instead of git add .) 
+      to avoid unnecessary files add and commit.
+(10) See the changes using: git status.
+(11) Use: git commit for commiting files.
+(12) # sign lines are comments.
+(13) Add header what has been done. Example: Add new field in header section.
+(14) Give 1 line gap by pressing Enter button two times.
+(15) closes #4 (Write this and press press Enter button one time)
+(16) Write details in new line if it is needed. Example: 
+      Added a new filed in the Header model as per front end requirement.
+(17) Exit commit by pressing Esc button, : , wq.
+(18) See the changes using: git status.
+(19) Pushing issue-4 branch to GitHub using: git push -u origin issue-4.
+(20) Click Compare anf pull request button in GitHub.
+(21) Select Reviewers as Badal Sarkar.
+(22) Comment anything in Leave a comment section otherwise will automatically take git commit messages.
+(23) Create pull request.
